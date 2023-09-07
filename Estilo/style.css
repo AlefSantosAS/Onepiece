@@ -4,38 +4,24 @@
     margin: 0px;
     padding: 0px;
 }
-main{
-    background-color: black;
-    height: 100vh;
-    position: relative;
-  
-}
-section#tamanho{
-    width: 100vw;
-    background-color: aquamarine;
-}
-section#texto {
-    position: absolute;
-    top: 0%;
-    left: 54%;
-    color: rgb(255 255 255);
-    width: 500px;
-    height: 300px;
-}
-section#texto p{
-    font-size: 3vh;
-}
-section#texto h2{
-    font-size: 5vh;
-}
+
 section#luffy{
     background-color: rgb(0, 0, 0);
-    width: 100vw;
-    height: 45vh;
+
 }
-
-
 section#luffy img{
-     height: 50vh;
-     border-radius: 50%;
+    width: 50%;
+    border-radius: 50%;
+    box-shadow: 3px 11px 29px #d50d0d70;
+
+}
+section#texto{
+    
+    background-color: blue;
+    position: relative;
+    
+}
+section#texto h2, p{
+    width: 49%;
+    color: black;
 }
