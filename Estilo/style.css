@@ -5,23 +5,10 @@
     padding: 0px;
 }
 
-section#luffy{
-    background-color: rgb(0, 0, 0);
-
-}
-section#luffy img{
-    width: 50%;
-    border-radius: 50%;
-    box-shadow: 3px 11px 29px #d50d0d70;
-
-}
-section#texto{
-    
-    background-color: blue;
+iframe{
     position: relative;
-    
-}
-section#texto h2, p{
-    width: 49%;
-    color: black;
+    top: 10px;
+    left: 10px;
+    width: 500px;
+    height: 500px;
 }
