@@ -1,14 +1,52 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&family=Rubik+Iso&display=swap');
+ :root{
+    --font1:'PT Serif', serif;
+    --font2:'Rubik Iso', cursive;
+ }
+
 *{
     margin: 0px;
     padding: 0px;
 }
+header{
+   
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 5vw;
+    font-family: var(--font1);
 
-iframe{
+}
+main{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+section#luffy{
+    background-color: white;
     position: relative;
-    top: 10px;
-    left: 10px;
-    width: 500px;
-    height: 500px;
+    top: 30px;
+    left: 0px;
+    border-radius: 15px;
+   
+}
+section#luffy h2{
+    font-size: 4vw;
+    font-family: 'PT Serif', serif;
+    color: rgb(0, 0, 0);
+}
+section#luffy p{
+    font-size: 2vw;
+    color: rgb(0, 0, 0);
+}
+img#luf{
+   
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 150px;
+    border-radius: 50%;
 }
