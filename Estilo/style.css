@@ -1,52 +1,51 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&family=Rubik+Iso&display=swap');
- :root{
-    --font1:'PT Serif', serif;
-    --font2:'Rubik Iso', cursive;
- }
+ @import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
 
 *{
     margin: 0px;
     padding: 0px;
 }
 header{
-   
+    font-family: 'Rubik Iso', cursive;
     background-color: black;
     color: white;
     text-align: center;
-    font-size: 5vw;
-    font-family: var(--font1);
+    font-size: 5vh;
+    box-shadow: 0px 8px 7px #06060671
+}
+header >h1{
+    padding: 13px;
+}
+header >p{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 5vh;
+    margin: 10px;
+    padding: 15px;
+    text-decoration: underline;
 
 }
-main{
-    background-color: black;
-    width: 100%;
-    height: 100vh;
+header >ul{
+
+     margin: 20px;
 }
-section#luffy{
-    background-color: white;
-    position: relative;
-    top: 30px;
-    left: 0px;
-    border-radius: 15px;
+ul >a{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    font: bolder;
+    padding: 7px;
+    background-color: rgb(65, 18, 18);
+    border-radius: 5px ;
+
+}
+ul >a:hover{
+    color: blue;
+    text-decoration: underline;
    
 }
-section#luffy h2{
-    font-size: 4vw;
-    font-family: 'PT Serif', serif;
-    color: rgb(0, 0, 0);
-}
-section#luffy p{
-    font-size: 2vw;
-    color: rgb(0, 0, 0);
-}
-img#luf{
-   
-    position: absolute;
-    transform: translate(-50%, -50%);
-    width: 100px;
-    height: 150px;
-    border-radius: 50%;
+iframe{
+    border: 1px solid black;
+    width: 1293px;
 }
