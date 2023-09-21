@@ -56,5 +56,6 @@ nav >a:hover{
 iframe{
     
     width: 98vw;
+    max-height: 50vh;
     
 }
