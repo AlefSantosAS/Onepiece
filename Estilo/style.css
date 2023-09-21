@@ -59,3 +59,34 @@ iframe{
     max-height: 50vh;
     
 }
+main{
+    background-color: #000000e3;
+    color: white;
+    
+
+}
+strong{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+main a:hover{
+    
+    background-color: rgb(0, 26, 255);
+    
+    padding: 3px;
+    border-radius: 5px;
+
+
+}
+main>p{
+    font-size: 20px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    font-size: 15px;
+    background-color: black;
+    color: whitesmoke;
+}
