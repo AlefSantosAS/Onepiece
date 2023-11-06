@@ -38,7 +38,7 @@ nav{
 }
 nav >a{
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 20px;
+    margin: 10px;
     text-decoration: none;
     color: white;
     font: bolder;
@@ -55,8 +55,9 @@ nav >a:hover{
 }
 iframe{
     
-    width: 98vw;
+    width: 95vw;
     max-height: 50vh;
+    
     
 }
 main{
