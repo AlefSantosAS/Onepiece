@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Robin</title>
+    <title>Jinbe</title>
     <link rel="stylesheet" href="Estilo/style1.css">
 </head>
 <body>
-    
     <section id="texto">
-        
+        <h1>Frank</h1>
+        <p></p>
     </section>
-    <section id="img"><img src="imagens/cartaz Robin.png" alt=""></section>
+    <section id="img"><img src="imagens/cartaz frank.png" alt=""></section>
+    
 </body>
 </html>

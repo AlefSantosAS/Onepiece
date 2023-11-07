@@ -14,7 +14,10 @@ section > p{
     font-size: 1.7vw;
 }
 section img{
-    width: 90vw;
+    width: 40vw;
+}
+img{
+    transform: translate(50% )
 }
 
 
