@@ -4,15 +4,78 @@ body{
     background-color: black;
 }
 section >h1{
-    text-align: center;
+    text-align: left;
     color: white;
     font-size: 5vw;
 }
 section > p{
-    text-align: center;
+    text-align: left;
     color: white;
     font-size: 1.7vw;
 }
 section img{
-    width: 98vw;
+    width: 90vw;
 }
+
+
+@media screen and (min-width:768px) and (max-width:992px){
+    h1{
+        text-align: left;
+        color: white;
+        font-size: 30px;
+    }
+    p{
+        text-align: left;
+        color: white;
+        font-size:20px;
+    }
+    section img{
+        width: 60vw;
+           
+    }       
+
+ 
+        img{
+            transform: translate(64% ,-46%);
+        }
+    }
+
+
+
+
+@media screen and (min-width:992px) and (max-width:1200px){
+    section >h1{
+        text-align: left;
+        color: white;
+        font-size: 2vw;
+    }
+    section > p{
+        text-align: left;
+        color: white;
+        font-size:10px;
+    }
+    section img{
+        width: 60vw;
+        
+    }
+
+
+}
+
+@media screen and (min-width: 1200px){
+    section >h1{
+        text-align: left;
+        color: white;
+        font-size: 2vw;
+    }
+    section > p{
+        text-align: left;
+        color: white;
+        font-size:10px;
+    }
+    section img{
+        width: 60vw;
+        
+    }
+}
+

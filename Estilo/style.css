@@ -54,9 +54,11 @@ nav >a:hover{
    
 }
 iframe{
+   
     
-    width: 98vw;
-    max-height: 80vh;
+    width: 600px;
+    height: 500px;
+  
     
     
     
