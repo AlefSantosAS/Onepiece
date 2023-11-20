@@ -76,9 +76,11 @@ img{
         color: white;
         font-size:10px;
     }
-    section img{
-        width: 60vw;
+    img{
+        width: 20vw;
+        
         
     }
+
 }
 
